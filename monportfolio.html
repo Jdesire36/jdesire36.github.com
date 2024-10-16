@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="monportfolio.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Bienvenue sur mon portfolio</h1>
+    </header>
+
+    <section id="about">
+        <h2>À propos de moi</h2>
+        <div class="desc">
+            <img src="image.png" alt="Photo de moi" class="profile-photo">
+            <div>
+                <h1>YOBOUA Jean Désiré Vianney Angaman</h2>
+                <h3>19ans</h3>
+                <h3>Community Manager, Web Marketeur, Web Designer, Developpeur Front-end</h3>
+                <p>Passionné par la communication, le marketing et l'informatique, je me consacre à relier les idées, les stratégies et les technologies pour créer des solutions innovante</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Mes Projets</h2>
+        <div class="project">
+            <h3>Projet 1: GESTION INTELLIGENTE DES STAGES-ECOLES</h3>
+            <p> Le projet a consisté à optimiser les processus de 
+                gestion des stages pour que les écoles puissent gérer plus facilement les 
+                demandes et les candidatures, ainsi que le suivi des stages.    
+            </p>
+
+        </div>
+        <div class="project">
+            <h3>Projet 2: ELECTRIFICATION PAR ENERGIE RENOUVALBLE EN ZONE RURALE</h3>
+            <p>Nous avons décidé de mettre en place un 
+                système de gestion de la méthanisation. Ce système nous permet de 
+                suivre en temps réel l'évolution de la température et de l'humidité, afin 
+                d'ajuster les paramètres de fonctionnement pour accélérer la réaction 
+                par la chaleur ou injecter de l'eau lorsque nécessaire.Cette solution vise à optimiser le processus de méthanisation, améliorer 
+                la sécurité des installations et augmenter la production d'énergie à partir 
+                des déchets organiques, contribuant ainsi à la gestion durable des 
+                déchets et à la promotion des énergies renouvelables dans les zones 
+                rurales de la Côte d'Ivoire. </p>
+                
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contactez-moi</h2>
+        <form id="contactForm">
+            <label for="name">Nom:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Envoyer</button>
+        </form>
+        <p id="formMessage"></p>
+    </section>
+
+    <script src="monportfolio.js"></script>
+</body>
+</html>
